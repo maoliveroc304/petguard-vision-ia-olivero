@@ -1,0 +1,8 @@
+transformers==4.48.0
+torch>=1.13.0
+pillow==9.5.0
+scikit-learn==1.2.0
+sentencepiece==0.1.99
+fastapi==0.95.0        # opcional si usas API
+uvicorn==0.22.0        # opcional
+python-multipart==0.0.5
