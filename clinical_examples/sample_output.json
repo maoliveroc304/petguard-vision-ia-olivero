@@ -1,0 +1,25 @@
+{
+  "record_id": "e4f8a9b0-xxxx-xxxx-xxxx-xxxxxxxx",
+  "timestamp_utc": "2025-11-22T12:00:00Z",
+  "source_image": "carnet_animal.jpg",
+  "models": {
+    "blip": {"name":"Salesforce/blip-image-captioning-base"},
+    "vit": {"name":"google/vit-base-patch16-224"},
+    "trocr": {"name":"microsoft/trocr-base-printed"},
+    "colors": {"method":"kmeans","n_colors":5}
+  },
+  "analysis": {
+    "description": "A small brown dog wearing a collar sitting on a table.",
+    "classification": [
+      {"label": "Labrador_retriever", "score": 0.42},
+      {"label": "golden_retriever", "score": 0.18},
+      {"label": "toy_poodle", "score": 0.05}
+    ],
+    "inferred_species": {"species":"dog","matched_label":"Labrador_retriever","score":0.42},
+    "detected_text": "CARNET - Vacunas: Rabia 12/2024\nPropietario: Juan Perez",
+    "dominant_colors": [
+      {"hex":"#a86b3c","rgb":[168,107,60],"pct":0.45},
+      {"hex":"#ffffff","rgb":[255,255,255],"pct":0.25}
+    ]
+  }
+}
